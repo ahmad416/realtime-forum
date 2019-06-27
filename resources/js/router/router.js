@@ -8,6 +8,7 @@ import Home from '../components/Home'
 import Askquestion from '../components/Askquestion'
 import Catagory from '../components/Catagory'
 import store from '../store';
+import Read from '../components/Read'
 /** End Components **/
 
 const router= new Router({
@@ -37,6 +38,11 @@ const router= new Router({
             meta: {
                 requiredAuth : true
             }
+        },
+        {
+            path: '/question/:slug',
+            name: 'read',
+            component: Read
         }
     ]
 })
