@@ -77,7 +77,7 @@
       </v-toolbar-title>
       <v-btn
           flat
-          to="/catagories"
+          to="/catagory"
           class="ml-0 hidden-sm-and-down"
         >
         Catagories
